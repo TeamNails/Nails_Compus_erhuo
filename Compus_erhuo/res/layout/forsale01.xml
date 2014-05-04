@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/title"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+     android:background="@drawable/background" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/userinfo_view1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:background="@drawable/qiugoubiaoti"
+              android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/back_Btn"
+            android:layout_width="70dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+           android:background="@drawable/title_btn_back"
+            android:onClick="back_OnClick"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/forsale_Btn"
+            android:layout_width="67dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+       android:background="@drawable/title_btn_right"
+            android:onClick="forsale_OnClick"/>
+    </RelativeLayout>
+
+<com.miloisbadboy.view.PullToRefreshView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_pull_refresh_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="4dp"
+    android:orientation="vertical" >
+
+	<!-- 这里放置listview,gridview或者scrollview的布局 ,PullToRefreshView
+	要设置android:orientation="vertical"属性
+	否则,显示不正确-->
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+  
+          android:listSelector="#00000000"
+        android:cacheColorHint="#00000000"
+           android:scrollbars="none" 
+        android:divider="@null" />
+
+</com.miloisbadboy.view.PullToRefreshView>
+
+</LinearLayout>

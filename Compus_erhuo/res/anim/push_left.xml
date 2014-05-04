@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 从左推入效果 -->
+
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+	<alpha  
+		android:toDegrees="-360"
+ 		android:duration="300"
+ 		android:pivotX="10%"
+		android:pivotY="100%"
+ 	/>
+</set>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+       <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"    >
+<LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"  
+            android:gravity="center_horizontal"
+             >
+
+               <LinearLayout
+                   android:id="@+id/exit_layout2"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="bottom"
+                   android:background="@drawable/gl_button_gray_normal"
+                   android:gravity="center_horizontal"
+                   android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:text="@string/pleaseChoose"
+            android:textColor="@color/hei_se"
+            android:textSize="16sp" />
+            
+            <Button
+                android:id="@+id/boyBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/btn_style_alert_dialog_button"
+                android:gravity="center"
+                android:text="@string/boy"
+                android:textColor="#03182c"
+                android:textSize="18sp" />
+            
+            <Button
+                android:id="@+id/girlBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/btn_style_alert_dialog_button"
+                android:gravity="center"
+                android:text="@string/girl"
+                android:textColor="#03182c"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/exitBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/btn_style_alert_dialog_button_pressed"
+                android:gravity="center"
+                android:text="@string/cancel"
+                android:textColor="#03182c"
+                android:textSize="18sp" />
+
+       </LinearLayout>
+
+    </LinearLayout>
+      </RelativeLayout>
+
+   

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+ 
+
+>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/backgroundshow2"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="3dip"
+            android:layout_height="match_parent"
+           
+             android:textColor="@color/di_white" />
+
+<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+     
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="3dip"
+          
+         
+            android:textColor="@color/di_white" />
+	<ImageView
+	    android:id="@+id/catagoryimage"
+	    android:layout_width="70dp"
+	    android:layout_height="60dp"
+	    android:scaleType="centerCrop"
+	    android:src="@drawable/png_09" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_gravity="bottom"
+      
+      
+        android:textColor="@color/di_white" />
+
+	  </LinearLayout>
+
+	<TextView
+	    android:id="@+id/textView4"
+	    android:layout_width="3dip"
+	    android:layout_height="match_parent"
+	    
+
+	    android:textColor="@color/di_white" />
+       <LinearLayout
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+     
+        
+   
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/blank1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/catagory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/hei_se"
+            android:textSize="@dimen/big_text_size" />
+
+        <TextView
+            android:id="@+id/blank2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+    </LinearLayout>
+    </RelativeLayout>

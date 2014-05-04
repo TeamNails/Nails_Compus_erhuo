@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+     >
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="70dp"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/title_btn_back"
+            android:onClick="back_btn" />
+
+        <ImageView
+            android:id="@+id/zhutitv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/guanyuerhuo" />
+    </RelativeLayout>
+
+<ImageView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/logo2" />
+
+   <TextView
+
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="8dp"
+       android:layout_marginTop="20dp"
+       android:text="校园二货"
+       android:textColor="@color/hei_se"
+       android:textSize="20sp" />
+<TextView
+  
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="8dp"
+       android:layout_marginTop="20dp"
+       android:text="卖东西"
+       android:textColor="@color/hei_se"
+       android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:gravity="top"
+        android:text=" 本软件由山东建筑大学钉子团队开发。如果您有什么不想要的东西，想要卖掉的可以 发布在此款软件上，别人如果对你的物品感兴趣的话，会联系您的。"
+        android:textColor="#c8a388"
+        android:textSize="15sp" />
+
+    <TextView
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:text="求购东西"
+        android:textColor="@color/hei_se"
+        android:textSize="17sp" />
+
+    <TextView
+    
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:gravity="top"
+        android:text=" 同样，如果您有什么需求的话，可以发布在此款软件上，别人如果对其感兴趣的话，会联系您的。"
+           android:textColor="#c8a388"
+        android:textSize="15sp" />
+    
+    <TextView
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:text="消息提醒"
+        android:textColor="@color/hei_se"
+        android:textSize="17sp" />
+
+    <TextView
+     
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:gravity="top"
+        android:text=" 当别人对您的商品留言或者对您的商品进行收藏，跟你对话，系统会在您上线后第一时间提醒您，让你更加了解您的宝贝的动态！"
+        android:textColor="#c8a388"
+        android:textSize="15sp"/>
+    
+    <TextView
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:text="对话聊天"
+        android:textColor="@color/hei_se"
+        android:textSize="17sp" />
+
+    <TextView
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:gravity="top"
+        android:text=" 有了此功能，您可以与卖家或买家，在线聊天，更加便于在线砍价，你懂得,也可以聊妹子哟！"
+         android:textColor="#c8a388"
+        android:textSize="15sp" />
+</LinearLayout>
+</ScrollView>

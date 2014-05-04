@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+       <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"    >
+<LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"  
+            android:gravity="center_horizontal"
+             >
+               <LinearLayout
+        	android:id="@+id/exit_layout2"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:gravity="center_horizontal"
+        	android:layout_gravity="bottom"
+        	android:orientation="vertical"
+        	android:background="@drawable/exit_dialog_bg" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:text="您可以通过以下几种方式联系对方！" />           
+            <Button
+              android:id="@+id/contact_to"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="与对方对话"
+              android:textSize="18sp"
+              android:textColor="#03182c"
+              android:layout_marginTop="15dp"
+              android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              android:background="@drawable/btn_style_alert_dialog_button"
+              android:gravity="center"
+			
+              />
+
+            <Button
+                android:id="@+id/copyemail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/btn_style_alert_dialog_button"
+                android:gravity="center"
+                android:text="复制Email"
+                android:textColor="#03182c"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/copyqq"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/btn_style_alert_dialog_button"
+                android:gravity="center"
+                android:text="复制qq号"
+                android:textColor="#03182c"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/sendmessage_Btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/btn_style_alert_dialog_button"
+                android:gravity="center"
+                android:text="发短信"
+                android:textColor="#03182c"
+                android:textSize="18sp" />
+            
+            <Button
+                android:id="@+id/call_Btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/btn_style_alert_dialog_button"
+                android:gravity="center"
+                android:text="打电话"
+                android:textColor="#03182c"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/exitBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/btn_style_alert_dialog_button_pressed"
+                android:gravity="center"
+                android:text="取消"
+                android:textColor="#03182c"
+                android:textSize="18sp" />
+
+       </LinearLayout>
+
+    </LinearLayout>
+      </RelativeLayout>
+
+   

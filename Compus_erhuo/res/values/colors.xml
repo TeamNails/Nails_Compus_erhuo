@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="window_bg">#ffeef1f3</color>
+    <color name="qqblue">#ff54acea</color>
+    <color name="transparent">#00000000</color>
+        <color name="gl_background">#737373</color>
+          <color name="di_white">#fff</color>
+               <color name="qian_hui">#eeeeee</color>
+          <color name="hei_se">#000000</color>
+                    <color name="gray">#bab8b8</color>
+                    	  <color name="grey21">#545557</color>
+                    	   <color name="white">#ffffff</color>
+                    	   <color name="button_unselected">#ff54acea</color>
+          
+</resources>

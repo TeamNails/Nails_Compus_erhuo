@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.erhuo.main"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:icon="@drawable/logo"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.erhuo.login.Appstart"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- SHOW -->
+
+        <activity
+            android:name="com.erhuo.comein.LoadingActivity"
+            android:theme="@style/MyDialogStyle" >
+        </activity>
+
+        <!-- 登录界面 -->
+        <activity
+            android:name="com.erhuo.login.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Anim_style2" >
+
+            <!--
+            <intent-filter>
+                <action android:name="android.media.action.IMAGE_CAPTURE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            -->
+        </activity>
+        <!--
+        <activity
+            android:name="com.erhuo.login.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            
+        </activity>
+        -->
+        <activity
+            android:name="com.erhuo.login.RegActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 主界面 -->
+        <activity
+            android:name="com.erhuo.main.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 消息 -->
+              <activity
+            android:name="com.erhuo.message.userInfo"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.erhuo.message.message"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+            <activity
+            android:name="com.erhuo.message.ChatMain"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+          
+
+        <!-- 个人信息 -->
+              <activity
+            android:name="com.erhuo.userInfo.changeQQ"
+            android:screenOrientation="portrait" >
+        </activity>
+              <activity
+            android:name="com.erhuo.userInfo.changeEmail"
+            android:screenOrientation="portrait" >
+        </activity>
+              <activity
+            android:name="com.erhuo.userInfo.grade"
+            android:screenOrientation="portrait" >
+        </activity>
+     
+              <activity
+            android:name="com.erhuo.userInfo.address"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.erhuo.userInfo.setting"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.erhuo.userInfo.changeName"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.erhuo.userInfo.changeHobby"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.erhuo.userInfo.changeAge"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.erhuo.userInfo.sexChoose"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyDialogStyleBottom" >
+        </activity>
+        <activity
+            android:name="com.erhuo.userInfo.PhotoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyDialogStyleBottom" >
+        </activity>
+        <activity
+            android:name="com.erhuo.userInfo.user_information_picture"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.erhuo.userInfo.about"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.erhuo.userInfo.change_passward"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.erhuo.userInfo.feedback"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.erhuo.userInfo.out_login"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyDialogStyleBottom" >
+        </activity>
+
+        <!-- 卖东西 -->
+        
+        <activity
+            android:name="com.erhuo.salegoods.introduceInput"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.erhuo.salegoods.Change_goods_information"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.erhuo.salegoods.GoodsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.erhuo.salegoods.contact"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyDialogStyleBottom" >
+        </activity>
+        <activity
+            android:name="com.erhuo.salegoods.goods_information"
+            android:screenOrientation="portrait" 
+              android:theme="@style/right_leftAnimation" 
+              
+              >
+        </activity>
+        <activity
+            android:name="com.erhuo.salegoods.catagoryList"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.erhuo.salegoods.goodsNameInput"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.erhuo.salegoods.priceInput"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.erhuo.salegoods.phoneInput"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.erhuo.salegoods.PhotoActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyDialogStyleBottom" >
+        </activity>
+        <activity
+            android:name="com.erhuo.salegoods.userNameInput"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.erhuo.salegoods.goods_catagory"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.erhuo.salegoods.subcatagory"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 收藏 -->
+
+        <activity
+            android:name="com.erhuo.collection.collectionList"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 求购 -->
+
+        <activity
+            android:name="com.erhuo.forsale.forSale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.erhuo.forsale.contact"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyDialogStyleBottom" >
+        </activity>
+        <activity
+            android:name="com.erhuo.forsale.forsaleSend"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.erhuo.forsale.forsaleChange"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.erhuo.forsale.goods_catagory"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.erhuo.forsale.subcatagory"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- 搜索 -->
+
+        <activity
+            android:name="com.erhuo.search.Search"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.erhuo.search.result"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 管理 -->
+
+        <activity
+            android:name="com.erhuo.manage.ManageInfo"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 下拉刷新 -->
+        <activity
+            android:name="com.erhuo.main.RefreshableView"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.stay.pull.lib.PullToRefreshAdapterViewBase"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.stay.pull.lib.PullToRefreshBase"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.stay.pull.lib.PullToRefreshGridView"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.stay.pull.lib.internal.EmptyViewMethodAccessor"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.stay.pull.lib.internal.LoadingLayout"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.erhuo.comein.Whatsnew"
+            android:theme="@style/Anim_style2" />
+        <activity
+            android:name="com.erhuo.comein.WhatsnewDoor"
+            android:theme="@style/Anim_style2" />
+
+        <service
+            android:name="com.erhuo.message.myservice"
+            android:enabled="true" >
+        </service>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" >
+         </uses-permission>
+           <uses-permission android:name="android.permission.RESTART_PACKAGES" >
+   
+    </uses-permission>
+
+</manifest>

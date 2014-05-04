@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loginpage"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/tiankong"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28.0dip"
+        android:layout_marginRight="28.0dip"
+        android:layout_marginTop="10.0dip"
+        android:background="@drawable/logo" />
+
+    <LinearLayout
+        android:id="@+id/input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:layout_marginLeft="28.0dip"
+        android:layout_marginRight="28.0dip"
+        android:background="@drawable/login_page_input"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/xiala"
+            android:layout_width="fill_parent"
+            android:layout_height="44.0dip"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/username_edit"
+                android:layout_width="fill_parent"
+                android:layout_height="44.0dip"
+                android:background="#00ffffff"
+                android:hint="@string/account"
+                android:maxLength="16"
+                android:maxLines="1"
+                android:paddingLeft="12.0dip"
+                android:textColor="#ff1d1d1d"
+                android:textColorHint="#ff666666"
+                android:textSize="16.0sp" />
+
+            <ImageButton
+                android:id="@+id/popupwindow"
+                android:layout_width="68dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="212dp"
+                android:background="@drawable/more_select" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:layout_marginLeft="1.0px"
+            android:layout_marginRight="1.0px"
+            android:background="#ffc0c3c4" />
+
+        <EditText
+            android:id="@+id/password_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="44.0dip"
+            android:background="#00ffffff"
+            android:gravity="center_vertical"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:maxLength="16"
+            android:maxLines="1"
+            android:paddingLeft="12.0dip"
+            android:textColor="#ff1d1d1d"
+            android:textColorHint="#ff666666"
+            android:textSize="16.0sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:layout_marginLeft="1.0px"
+            android:layout_marginRight="1.0px"
+            android:background="#ffc0c3c4" />
+
+        <RelativeLayout
+            android:id="@+id/Verificationcode"
+            android:layout_width="fill_parent"
+            android:layout_height="44.0dip"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/Verificationcode_edit"
+                android:layout_width="150.0dip"
+                android:layout_height="44.0dip"
+                android:background="#00ffffff"
+                android:hint="请输入验证码"
+                android:maxLength="16"
+                android:maxLines="1"
+                android:paddingLeft="12.0dip"
+                android:textColor="#ff1d1d1d"
+                android:textColorHint="#ff666666"
+                android:textSize="16.0sp" />
+
+            <ImageView
+                android:id="@+id/Verificationcode_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="43dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@id/Verificationcode_edit" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/signin_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/input"
+        android:layout_marginLeft="28.0dip"
+        android:layout_marginRight="28.0dip"
+        android:layout_marginTop="12.0dip"
+        android:background="@drawable/login_button_bg"
+        android:gravity="center"
+        android:paddingTop="5.0dip"
+        android:text="@string/login"
+        android:textColor="#ff333333"
+        android:textSize="18.0sp" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signin_button"
+        android:layout_marginLeft="30.0dip"
+        android:layout_marginRight="30.0dip"
+        android:layout_marginTop="8.0dip"
+        android:layout_weight="1" >
+
+        <CheckBox
+            android:id="@+id/auto_save_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@null"
+            android:button="@null"
+            android:checked="true"
+            android:drawableLeft="@drawable/checkbox_bg1"
+            android:drawablePadding="4.0dip"
+            android:text="@string/auto_save_password"
+            android:textColor="#ffffffff"
+            android:textSize="12.0sp" />
+
+        <Button
+            android:id="@+id/register_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/login_regist_bg"
+            android:gravity="left|center"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="18.0dip"
+            android:text="@string/register2"
+            android:textColor="#ffffffff"
+            android:textSize="12.0sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
